@@ -1,5 +1,7 @@
 ## SCF 26 Deliverables [Submmited for Award Approval]
 
+--
+
 **Deliverables-**
 
 Brief description: New Non-Monetary NFT Token, Cloud Application, KYC Compliant USDC Distribution 
