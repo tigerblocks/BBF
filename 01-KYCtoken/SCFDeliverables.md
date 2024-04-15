@@ -11,7 +11,9 @@ https://bbf.tigerblocks.com/
 [Completed] Rebrand Project and Provide more information on BBF in SCF 26 Application
 https://drive.google.com/file/d/1W_RPf38pqBoOjsTZMeCgSomnnsa1ReNE/view
 
-**Deliverables -**
+--
+
+**Original Deliverables -**
 
 Brief description: New Non-Monetary NFT Token, Cloud Application, KYC Compliant USDC Distribution 
 
@@ -20,6 +22,8 @@ Brief description: New Non-Monetary NFT Token, Cloud Application, KYC Compliant 
 (Moved to SCF26) Administration User Interface & Front End User Application
 
 (Moved to SCF26) KYC Compliant USDC Distribution
+
+--
 
 **Additional Deliverables -**
 
@@ -33,7 +37,7 @@ Brief description: New Non-Monetary NFT Token, Cloud Application, KYC Compliant 
 
 https://drive.google.com/file/d/1fr8KbW-DNmbNXeX1_Oy2Kpma3WRbbUHR/view
 
-
+--
 
 **Scope BBF Phase 1: KYC Infrastructure [Original budget $150,000, new budget $139,000]**
 
