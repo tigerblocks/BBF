@@ -11,9 +11,8 @@ https://bbf.tigerblocks.com/
 
 In development
 
-See Folder
+See Folder - https://github.com/tigerblocks/BBF/tree/main/01-KYCtoken
 
-https://github.com/tigerblocks/BBF/tree/main/01-KYCtoken
 ----
 
 **Phase 2: Private Asset Tokenization**
