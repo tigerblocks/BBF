@@ -5,9 +5,11 @@
 
 **Updated Deliverables per Feedback**
 
-Fix Marketing Website Links
+[Completed] Fix Marketing Website Links: 
+https://bbf.tigerblocks.com/
 
-Rebrand Project and Provide more information on BBF in SCF 26 Application
+[Completed] Rebrand Project and Provide more information on BBF in SCF 26 Application
+https://drive.google.com/file/d/1W_RPf38pqBoOjsTZMeCgSomnnsa1ReNE/view
 
 **Deliverables -**
 
@@ -17,9 +19,17 @@ Brief description: New Non-Monetary NFT Token, Cloud Application, KYC Compliant 
 (Moved to SCF26) Administration User Interface & Front End User Application
 (Moved to SCF26) KYC Compliant USDC Distribution
 
-**Additional Deliverables -
-**
+**Additional Deliverables -**
 
+[Completed] KYC Compliance Research / CFTC Guideline Review
+
+[Completed] Non-Monetary Validation of Wallet Control KYC NFT Token Methods and Design
+
+[Completed] Banking Compliance Transaction Methodology
+
+[Completed] Beta Marketing Website
+
+https://drive.google.com/file/d/1fr8KbW-DNmbNXeX1_Oy2Kpma3WRbbUHR/view
 
 
 
