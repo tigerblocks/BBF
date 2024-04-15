@@ -21,9 +21,8 @@ See Folder - https://github.com/tigerblocks/BBF/tree/main/01-KYCtoken
 
 **Phase 4: Liquidity Solutions**
 
-**Phase 5: Template Standardization **
+**Phase 5: Template Standardization**
 
-**Phase 6: Compliance Maintenance
-**
+**Phase 6: Compliance Maintenance**
 
 
