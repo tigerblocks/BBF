@@ -49,6 +49,7 @@ Compliance Research enabled Cost Saving of $11,000. Merged Community award 1 & 2
 
 [Resubmission Requested] Community Award 1: Administration User Interface & Front End User Interface + KYC Compliant USDC Distribution
 
+--
 
  ## SCF 22 Deliverables [COMPLETED] 
 
