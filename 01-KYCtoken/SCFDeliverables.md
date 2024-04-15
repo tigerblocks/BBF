@@ -4,7 +4,9 @@
 ## SCF 25 Deliverables [Resubmission Requested]
 
 **Updated Deliverables per Feedback**
+
 Fix Marketing Website Links
+
 Rebrand Project and Provide more information on BBF in SCF 26 Application
 
 **Deliverables -**
