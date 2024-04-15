@@ -18,7 +18,7 @@ Brief description: New Non-Monetary NFT Token, Cloud Application, KYC Compliant 
 
 [Completed] Activation Award: Figma UX for the Cloud User interface, Project Requirement Specification, and KYC Token
 
-[Resubmission Requested] Community Award 1: Administration User Interface & Front End User Interface + KYC Compliant USDC Distribution
+[Pending Approval] Community Award 1: Administration User Interface & Front End User Interface + KYC Compliant USDC Distribution
 
 --
 
