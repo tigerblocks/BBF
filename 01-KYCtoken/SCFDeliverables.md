@@ -1,7 +1,28 @@
-## SCF 26 Deliverables [Pending Award Approval]
+## SCF 26 Deliverables [Submmited for Award Approval]
 
+**Deliverables-**
+
+Brief description: New Non-Monetary NFT Token, Cloud Application, KYC Compliant USDC Distribution 
+
+[Pending] Non-Monetary Validation of Wallet Control KYC NFT Token
+
+[Pending] Administration User Interface & Front End User Application
+
+[Pending] KYC Compliant USDC Distribution
+
+--
+
+**Scope BBF Phase 1: KYC Infrastructure [Updated budget $139,000]**
+
+[Completed] Activation Award: Figma UX for the Cloud User interface, Project Requirement Specification, and KYC Token
+
+[Resubmission Requested] Community Award 1: Administration User Interface & Front End User Interface + KYC Compliant USDC Distribution
+
+--
 
 ## SCF 25 Deliverables [Resubmission Requested]
+
+--
 
 **Updated Deliverables per Feedback**
 
