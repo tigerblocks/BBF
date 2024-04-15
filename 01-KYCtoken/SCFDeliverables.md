@@ -62,6 +62,8 @@ Brief description: Figma UX for the Cloud User interface, Project Requirement Sp
 
 [Completed] KYC Token: https://github.com/tigerblocks/BBF/blob/main/01-KYCtoken/SAC/01-KYCtoken.txt
 
+--
+
 **Scope BBF Phase 1: KYC Infrastructure [150,000]**
 
 https://drive.google.com/file/d/1rxmrhWm9XzhgBW-xOkSsnx5p2Yd_TPs-/view
