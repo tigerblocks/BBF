@@ -16,7 +16,9 @@ https://drive.google.com/file/d/1W_RPf38pqBoOjsTZMeCgSomnnsa1ReNE/view
 Brief description: New Non-Monetary NFT Token, Cloud Application, KYC Compliant USDC Distribution 
 
 (Moved to SCF26) Non-Monetary Validation of Wallet Control KYC NFT Token
+
 (Moved to SCF26) Administration User Interface & Front End User Application
+
 (Moved to SCF26) KYC Compliant USDC Distribution
 
 **Additional Deliverables -**
