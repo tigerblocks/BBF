@@ -16,6 +16,8 @@ Brief description: New Non-Monetary NFT Token, Cloud Application, KYC Compliant 
 
 **Scope BBF Phase 1: KYC Infrastructure [Updated budget $139,000]**
 
+https://drive.google.com/file/d/17wsxgHsdie8eM9oIr4fjLBY__4xDvyMR/view
+
 [Completed] Activation Award: Figma UX for the Cloud User interface, Project Requirement Specification, and KYC Token
 
 [Pending Approval] Community Award 1: Administration User Interface & Front End User Interface + KYC Compliant USDC Distribution
