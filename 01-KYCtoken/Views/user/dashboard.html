@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AdminLTE 3 | Dashboard</title>
+
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="Plugins/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/fontawesome.min.css" integrity="sha512-UuQ/zJlbMVAw/UU8vVBhnI4op+/tFOpQZVT+FormmIEhRSCnJWyHiBbEVgM4Uztsht41f3FzVWgLuwzUqOObKw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Tempusdominus Bootstrap 4 -->
+  <link rel="stylesheet" href="Plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+  <!-- iCheck -->
+  <link rel="stylesheet" href="Plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="style/css/adminlte.min.css">
+  <link rel="stylesheet" href="style/bbf.css">
+  <!-- overlayScrollbars -->
+</head>
+<body class="hold-transition sidebar-mini layout-fixed">
+<div class="wrapper">
+
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="index.html" class="nav-link">Home</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="#" class="nav-link">Contact</a>
+      </li>
+    </ul>
+
+    <!-- Right navbar links -->
+    <ul class="navbar-nav ml-auto">
+      <!-- Navbar Search -->
+      <li class="nav-item">
+        <a class="nav-link" href="/Signin.html">
+          Logout
+        </a>        
+      </li>
+    </ul>
+  </nav>
+  <!-- /.navbar -->
+
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-light-lightblue elevation-4">
+    <!-- Brand Logo -->
+    <a href="index.html" class="brand-link" style="font-weight: 900;">      
+      <span class="brand-text pl-1">BBF</span>
+    </a>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Sidebar user panel (optional) -->
+      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+        <div class="image">
+          <img src="img/user4-128x128.jpg" class="img-circle elevation-2" alt="User Image">
+        </div>
+        <div class="info">
+          <a href="/AccountPersonalInfo.html" class="d-block">Casey Doe</a>
+        </div>
+      </div>
+
+      <!-- Sidebar Menu -->
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+            <li class="nav-item">
+                <a href="/dashboard.html" class="nav-link active">
+                <i class="nav-icon fas fa-tachometer-alt"></i>
+                  <p>                    
+                    Dashboard
+                  </p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="nav-icon fas fa-th"></i>
+                  <p class="pl-1">
+                    Pending Tasks
+                  </p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="/wallet.html" class="nav-link">
+                    <i class="fa-solid fa-wallet"></i>
+                  <p class="pl-1">
+                    Wallet
+                  </p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="/validateWallet.html" class="nav-link">
+                    <i class="fa-solid fa-building-columns"></i>
+                  <p class="pl-1">
+                    Verify an Insitution
+                  </p>
+                </a>
+            </li>
+        </ul>
+        <ul class="nav nav-pills nav-sidebar flex-column mt-1" data-widget="treeview" role="menu" data-accordion="false">
+          <li class="nav-header">SUPPORT</li>
+          <li class="nav-item">
+              <a href="#" class="nav-link">
+                  <i class="fa-solid fa-comments"></i>
+                <p class="pl-1">
+                  Customer care
+                </p>
+              </a>
+          </li>
+      </ul>
+      </nav>
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header mb-3">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1 class="m-0">Verify an individual</h1>
+          </div><!-- /.col -->
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-right">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item active">Dashboard</li>
+            </ol>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+
+    <!-- Main content -->
+    <section class="content">
+      <div class="container-fluid">
+        <div class="col-md-10">
+            <div class="card card-outline card-primary">
+              <div class="card-body" style="display: block; min-height: 80vh;">                
+               <form action="" class="m-3" id="wizardForm">
+                 <!-- step 1   -->
+                <div class="step" id="step1">
+                    <div class="border-0 mb-3">                        
+                        <span class="h2 fw-bold">Basic Information</span>                        
+                      </div>
+
+                      <div class="my-3">Where are you located from?</div>
+                    <div class="mb-5">
+                        <span>Country</span>
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Select from the list below
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <a class="dropdown-item" href="#">Action</a>
+                              <a class="dropdown-item" href="#">Another action</a>
+                              <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                          </div>
+                    </div>
+                      <button type="button" class="btn btn-primary" onclick="nextStep()">Next
+                        <i class="fa-solid fa-arrow-right pl-1"></i>
+                      </button>  
+                </div> 
+                <!-- step 2   -->
+                <div class="step" id="step2">
+                    <div class="border-0 mb-3">                        
+                        <span class="h2 fw-bold">Basic Information</span>                        
+                      </div>
+
+                      <div class="my-3">Where are you located from?</div>
+                    <div class="mb-5">
+                        <span>Country</span>
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Select from the list below
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <a class="dropdown-item" href="#">Action</a>
+                              <a class="dropdown-item" href="#">Another action</a>
+                              <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                          </div>
+
+                          <div class="col-6 my-4">
+                            <p>
+                                To ensure a smooth verification process for your application, please provide the following details. Make sure that all information is accurate and complete.
+                            </p>
+                          </div>
+
+                          <div class="row">
+                            <div class="form-group col-3">
+                                <label for="Firstname">First name</label>
+                                <input type="text" class="form-control" id="Firstname" placeholder="Written text">
+                              </div>
+                          </div>
+
+                          <div class="row">
+                            <div class="form-group col-3">
+                                <label for="Lastname">Last name</label>
+                                <input type="text" class="form-control" id="Lastname" placeholder="Written text">
+                              </div>
+                          </div>
+
+                          <div class="row">
+                            <div class="form-group col-3">
+                                <label for="Socialsecuritynumber">First name</label>
+                                <input type="number" class="form-control" id="Socialsecuritynumber" placeholder="*** -** -****">
+                              </div>
+                          </div>
+
+                          <div class="row">
+                            <div class="form-group col-3">
+                                <label for="Phonenumber">Phone number</label>
+                                <input type="number" class="form-control" id="Phonenumber" placeholder="123131231231">
+                              </div>
+                          </div>
+
+                          <div class="row">
+                            <div class="form-group col-3">
+                                <label for="Gender">Gender</label>
+                                <select class="form-control form-control">
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                  </select>
+                              </div>
+                          </div>
+
+                          <div class="row">
+                            <div class="form-group col-3">
+                                <label for="birthdate" class="form-label">Birth date</label>
+                                <input type="date" id="birthdate" name="birthdate" class="form-control">
+                            </div>
+                          </div>
+
+                          <div class="row">
+                            <div class="form-group col-3">
+                                <label for="Country">Country</label>
+                                <select class="form-control form-control">
+                                    <option>United States of America</option>                                    
+                                  </select>
+                              </div>
+                          </div>
+
+                          <div class="row">
+                            <div class="form-group col-3">
+                                <label for="State">State/ Province</label>
+                                <select class="form-control form-control">
+                                    <option>California</option>                                    
+                                  </select>
+                              </div>
+                          </div>
+
+                          <div class="row">
+                            <div class="form-group col-3">
+                                <label for="City">City</label>
+                                <select class="form-control form-control">
+                                    <option>Sunnyvale</option>                                    
+                                  </select>
+                              </div>
+                          </div>
+
+                          <div class="row">
+                            <div class="form-group col-3">
+                                <label for="Streetaddress">Street address #1</label>
+                                <input type="number" class="form-control" id="Streetaddress" placeholder="Street address" value="123, john doe street">
+                              </div>
+                          </div>
+
+                          <div class="row">
+                            <div class="form-group col-3">
+                                <label for="Streetaddress2">Street address #2</label>
+                                <input type="number" class="form-control" id="Streetaddress2" placeholder="Street address" value="apt 1">
+                              </div>
+                          </div>
+
+                          <div class="row">
+                            <div class="form-group col-3">
+                                <label for="Pincode">Pincode</label>
+                                <input type="number" class="form-control" id="Pincode" placeholder="Street address" value="99999">
+                              </div>
+                          </div>
+                          
+                    </div>
+                      <button type="button" class="btn btn-primary" onclick="nextStep()">Next
+                        <i class="fa-solid fa-arrow-right pl-1"></i>
+                      </button> 
+                  </div>
+                  <!-- step 3   -->
+                  <div class="step" id="step3">
+                    <div class="border-0 mb-3">                        
+                        <span class="h2 fw-bold">Verification</span>
+                        <br>
+                      </div>
+                    <div class="mb-5">
+                          <div class="row">
+                            <div class="form-group col-3">
+                                <label for="Identificationtype">Identification type</label>
+                                <select class="form-control form-control">
+                                    <option>Passport</option>                                    
+                                  </select>
+                              </div>
+                          </div>
+
+                          <div class="row">
+                            <div class="form-group col-3">
+                                <label for="Nationality" class="form-label">Nationality</label>
+                                <input type="text" id="Nationality" name="Nationality" class="form-control" value="United States of America">
+                            </div>
+                          </div>
+
+                          <div class="row">
+                            <div class="form-group col-3">
+                                <label for="Country">Country</label>
+                                <select class="form-control form-control">
+                                    <option>United States of America</option>                                    
+                                  </select>
+                              </div>
+                          </div>
+
+                          <div class="row">
+                            <div class="form-group col-3">
+                                <label for="Countryissued">Country issued</label>
+                                <select class="form-control form-control">
+                                    <option>California</option>                                    
+                                  </select>
+                              </div>
+                          </div>
+
+                          <div class="row">
+                            <div class="form-group col-3">
+                                <label for="Identificationnumber">Identification number</label>
+                                <input type="text" id="Identificationnumber" name="Identificationnumber" class="form-control" placeholder="Written text">
+                              </div>
+                          </div>
+
+                          <h3 class="mb-2">Upload documents</h3>
+                          <button type="button" class="btn btn-info">Upload
+                            <i class="fa-solid fa-upload"></i>
+                          </button>
+                    </div>
+                      <button type="button" class="btn btn-primary" onclick="nextStep()">Next
+                        <i class="fa-solid fa-arrow-right pl-1"></i>
+                      </button>
+                  </div>
+
+                  <div class="step" id="step4">
+                    <div class="border-0 mb-3">                        
+                        <span class="h2 fw-bold">Verification - Completed Successfully!</span>
+                        <br>
+                        <div class="row">
+                            <div class="col-5">We have approved your verification documents. Click next to add and verify your stellar wallet.</div>
+                        </div>
+                      </div>                    
+                      <button type="button" class="btn btn-primary" onclick="nextStep()">Next
+                        <i class="fa-solid fa-arrow-right pl-1"></i>
+                      </button>
+                  </div>
+               </form>               
+              </div>             
+            </div>
+            <!-- /.card -->
+          </div>
+      </div>
+      <!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+  </div>
+</div>
+<!-- ./wrapper -->
+
+<!-- Bootstrap 4 -->
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="Js/app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js" integrity="sha512-u3fPA7V8qQmhBPNT5quvaXVa1mnnLSXUep5PS1qo5NRzHwG19aHmNJnj1Q8hpA/nBWZtZD4r4AX6YOt5ynLN2g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
